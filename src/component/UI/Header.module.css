@@ -1,0 +1,57 @@
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #006491;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #fff;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.logo-wrapper {
+  padding: 1.5rem 1rem;
+  margin-left: 2.5rem;
+}
+
+.logo-img {
+  width: 2rem;
+  height: 1.4rem;
+  vertical-align: middle;
+}
+
+.link-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-items > div {
+  padding: 1.5rem 1rem;
+}
+
+.link-items > div:last-child {
+  padding: 1rem 1rem;
+}
+
+.link-items > div:hover {
+  background-color: #02547a;
+}
+
+.link-items > div:last-child:hover {
+  background-color: #006491;
+}
+
+.link-items > div a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+

@@ -1,0 +1,14 @@
+.classics-header{
+    display: flex;
+    justify-content: space-between;
+    width: 67%;
+    margin: 7rem auto 0rem auto;
+    background-color: #0175ab;
+    font-size: 1.7rem;
+    border-radius: 30px;
+}
+
+.classics-info{
+    padding: 1rem 1.2rem 1rem 1.2rem;
+    color: #fff;
+}

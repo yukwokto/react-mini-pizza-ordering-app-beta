@@ -1,0 +1,65 @@
+.cart-modal {
+  padding: 1rem;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.close-btn {
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 1em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: red;
+  text-align: center;
+  transition: all 0.2s;
+  border: none;
+}
+
+.close-btn:hover {
+  background-color: rgb(193, 3, 3);
+}
+
+.pay-btn {
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 1em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #4095c6;;
+  text-align: center;
+  transition: all 0.2s;
+  border: none;
+}
+
+.pay-btn:hover {
+  background-color: #1887c6;;
+}
+
+.cart-header{
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr;
+  margin-bottom: 1rem;
+  color: navy;
+  font-weight: 800;
+}
+
+.cart-footer{
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr;
+  margin-bottom: 0.5rem;
+  color: navy;
+  font-weight: 800;
+  margin-top: 0.5rem;
+}

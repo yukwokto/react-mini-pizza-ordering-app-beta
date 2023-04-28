@@ -1,0 +1,109 @@
+.custom-pizza-wrapper {
+  width: 67%;
+  margin: 0 auto;
+  height: 100vh;
+  border: 1px solid black;
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+
+.custom-pizza-form-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+input[type='checkbox'], input[type='radio'] {
+    display: none;
+    visibility:hidden;
+}
+
+.to-check:has(input[type='radio']:checked), 
+.to-check:has(input[type='checkbox']:checked){
+    background-color: rgb(0, 179, 255);
+}
+
+
+.pizza-size {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.pizza-size > div{
+    border: 1px solid rgb(0, 200, 255);
+    border-radius: 20px;
+    padding: 0.5rem 0.3rem;
+    margin: 0 0.5rem;
+    text-align: center;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+
+
+.pizza-meat {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.pizza-meat > div{
+    border: 1px solid rgb(0, 200, 255);
+    border-radius: 20px;
+    padding: 0.5rem 0.3rem;
+    margin: 0 0.5rem;
+    text-align: center;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+
+
+.pizza-veggie {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.pizza-veggie > div{
+    border: 1px solid rgb(0, 200, 255);
+    border-radius: 20px;
+    padding: 0.5rem 0.3rem;
+    margin: 0 0.5rem;
+    text-align: center;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+
+
+.pizza-cheese {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.pizza-cheese > div{
+    border: 1px solid rgb(0, 200, 255);
+    border-radius: 20px;
+    padding: 0.5rem 0.3rem;
+    margin: 0 0.5rem;
+    text-align: center;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+
+
+.pizza-quantity {
+  margin: 1rem 0;
+}
